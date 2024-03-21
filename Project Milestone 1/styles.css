@@ -1,0 +1,119 @@
+﻿@font-face {font-family: 'MintSoda';
+    src:  url('MintSoda.TTF');}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-family: 'MintSoda';
+    background-image: url('back.png');
+    font-weight: normal;
+}
+
+
+#logoWrap {
+    padding-top: 5px;
+    text-align: center;
+    background-image: url('nightdarker.png'), url('logoback.png');
+    background-repeat: no-repeat, repeat-x;
+    height: auto;
+    background-size: 85px,85px;
+    padding-bottom: 5px;
+}
+
+#Nav {
+
+ background-image: url('skyback.png');
+ background-position: center;
+ text-align: center;
+ float: center;
+ padding-right: 10px;
+ padding-left: 95px;
+padding-bottom:5px;
+word-spacing: 20px;
+border-bottom: 1px solid white;
+}
+p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px
+}
+
+ #Nav span.sign-in {
+        float: right; 
+        word-spacing: 0px;
+        margin-bottom: 4px;
+        padding:0;
+    }
+
+span.sign-in > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    float: bottom;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 > img {
+    
+    height:auto
+}
+
+
+#FooterWrap {
+    background-color: #e6ccff;
+    padding-top: 5px;
+    color: black;
+    font-size: 12px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+#About {
+   margin-left: 20px;
+   margin-right: 20px;
+   padding: 0;
+}
+
+#resize {
+
+margin-right: 25px;
+}
+
+#resizeimg {
+    width: 25px;
+}
+
+#Splash {
+    margin-top: 20px;
+
+}
+
+
+#About span.seasonal {
+    color: lightgreen;
+}
+
+a:visited {
+    color: pink;
+
+}
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:link {
+ color: white;
+ text-decoration: none;
+}
